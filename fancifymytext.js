@@ -1,9 +1,9 @@
-function alert(){
-    alert("hellow World!");
-}
-
+function displayAlert() {
+    alert("Hello World!");
+  }
+  
 function biggerText() {
-    alert()
+    displayAlert();
     document.getElementById("textInput").style.fontSize = "24pt";
   }
   

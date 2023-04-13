@@ -1,4 +1,6 @@
+<meta charset="UTF-8">
 <!DOCTYPE html>
+<html lang="en"></html>
 
 <html>
   <head>
@@ -10,15 +12,18 @@
     <form>
       <fieldset>
         <legend>Text</legend>
-        <textarea id="textInput" rows="4" cols="30"></textarea>
+        <label for="textInput">Enter your text:</label>
+        <textarea id="textInput" rows="4" cols="30" placeholder="Type your text here..."></textarea>
       </fieldset>
       <fieldset>
         <legend>Fancify</legend>
         <button type="button" onclick="biggerText()">Bigger!</button>
         <br>
-        <input type="radio" id="fancyRadio" name="fanciness" value="fancy" onchange="fancyText()"> FancyShmancy
+        <input type="radio" id="fancyRadio" name="fanciness" value="fancy" onchange="fancyText()">
+        <label for="fancyRadio">FancyShmancy</label>
         <br>
-        <input type="radio" id="boringRadio" name="fanciness" value="boring" onchange="boringText()"> BoringBetty
+        <input type="radio" id="boringRadio" name="fanciness" value="boring" onchange="boringText()">
+        <label for="boringRadio">BoringBetty</label>
         <br>
         <button type="button" onclick="mooText()">Moo</button>
       </fieldset>
